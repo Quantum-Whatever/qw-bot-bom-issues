@@ -1,0 +1,21 @@
+name: Feature request
+description: Suggest something bot-bom should do.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: want
+    attributes:
+      label: What do you want to do?
+      description: Describe what you are trying to get done, not only the feature.
+    validations:
+      required: true
+  - type: textarea
+    id: today
+    attributes:
+      label: How do you do it today?
+      description: Any workaround, or what is hard about it.
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else
+      description: Screenshots or examples are welcome.
