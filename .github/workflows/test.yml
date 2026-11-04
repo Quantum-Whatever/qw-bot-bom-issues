@@ -1,0 +1,15 @@
+# Placeholder CI, created with the repo by the dispatcher (Quantum-Whatever/qw-dispatcher#43).
+# It always passes. Replace it with this repo's real test suite once code lands:
+# pytest on Windows and Linux, 3.11/3.12, or `npm test` / `node --test`.
+name: test
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "No test suite yet; this is the placeholder from repo creation."

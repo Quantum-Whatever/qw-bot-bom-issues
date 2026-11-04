@@ -1,0 +1,11 @@
+# Per-repo config for the qw-skills commands. See qw-skills/schema/repo-config.md.
+# Created with the repo by the dispatcher (Quantum-Whatever/qw-dispatcher#22).
+schema = 1
+
+[workflow]
+# Who works, and who work goes back to. The assignee is the whole state machine:
+# unassigned = available, `bot` = in flight, `human` = his move.
+bot = "qw-claude"
+human = "qwbmo"
+# The bench dispatcher that may work this repo, so a session here warns when one is.
+dispatcher = "Quantum-Whatever/qw-dispatcher"
